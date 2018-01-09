@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         menu.add(0,1,0,"ADD");
         menu.add(0,2,0,"EDIT");
+        //四個參數(第一個參數是group的id,第二個參數是此group裡面的id,第三個參數，第四個參數是這個選項的名稱
         return super.onCreateOptionsMenu(menu);
     }
 
